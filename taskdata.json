@@ -1,0 +1,90 @@
+Schema Format:
+{
+    "name": taskdata,
+    "keywords":["user","account","return","leave","months","total","revenue","service","bonus","ads","replies"],
+    "columns":
+    [
+        
+        {
+        "name": "user_id",
+        "keywords": ["user",]
+        },
+        {
+        "name": "account_id",
+        "keywords": ["account",],
+        },
+        {
+        "name": "max_return_days",
+        "keywords": ["return","days","come back"],
+        "summable":"True"
+        },
+        {
+        "name": "average_return_days",
+        "keywords": ["return","days",],
+        "summable":"True"
+        },
+        {
+        "name": "customer_since_months",
+        "keywords": ["stays","stayed","months",],
+        "summable":"True"
+        },
+        {
+        "name": "total_revenue",
+        "keywords": ["total","revenue","earning","income"],
+        "summable":"True"
+        },
+        {
+        "name": "average_revenue",
+        "keywords": ["average","revenue","earning","income"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_vas_count",
+        "keywords": ["services","service","VAS"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_used_vas_value",
+        "keywords": ["usage","service use"],
+        "summable":"True"
+        },
+        {
+        "name": "bussiness_type",
+        "keywords": ["type"],
+        },
+        {
+        "name": "avg_wallet_bonus",
+        "keywords": ["bonus","wallet"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_active_ads",
+        "keywords": ["active","ads"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_new_ads",
+        "keywords": ["new","ads"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_email_replies",
+        "keywords": ["email","replies"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_call_replies",
+        "keywords": ["call","replies"],
+        "summable":"True"
+        },
+        {
+        "name": "avg_sms_replies",
+        "keywords": ["sms","replies"],
+        "summable":"True"
+        },
+        {
+        "name": "target",
+        "keywords": ["leave","stay","positive","negative"],
+        }
+    ]
+}
